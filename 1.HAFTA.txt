@@ -1,0 +1,12 @@
+1.hafta
+Asset araştırması yapıldı.
+Unity High Definition Render Pipeline araştırıldı.
+Bir environment oluşturuldu.
+Oluşturulan environmentta düzenlemeler yapıldı
+Araba ve araba kontrolleri eklendi.
+Arabanın kontrol özellikleri ayarlandı.
+Araba texture ve modeli ayarlandı.
+Arabanın diger nesnelerle çarpışması ayarlandı.
+Daha iyi ışık için gereken componentların ayarları yapıldı.
+UI ekranında hız göstergesi ve vites eklendi.
+UI ekranında en iyi tur,yarış süresi,tur sayısı ve checkpointi gösteren ve update yapan scriptler eklendi.
