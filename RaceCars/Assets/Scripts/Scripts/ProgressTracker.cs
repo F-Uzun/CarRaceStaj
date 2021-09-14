@@ -6,7 +6,12 @@ public class ProgressTracker : MonoBehaviour
 {
     private AudioSource Player;
     private bool IsPlaying = false;
-    // Start is called before the first frame update
+    public int CurrentWP = 0;
+    public int ThisWPNumber;
+    public int LastWPNumber;
+
+
+
     void Start()
     {
         Player = GetComponent<AudioSource>();
@@ -34,4 +39,29 @@ public class ProgressTracker : MonoBehaviour
             }
         }
     }
+
+    private void Update()
+    {
+        if(CurrentWP > LastWPNumber)
+        {
+            StartCoroutine(CheckDirection());
+        }
+        if(LastWPNumber > ThisWPNumber)
+        {
+            SaveScript.WrongWay = false;
+        }
+
+        if (LastWPNumber < ThisWPNumber)
+        {
+            SaveScript.WrongWay = true;
+        }
+    }
+
+
+    IEnumerator CheckDirection()
+    {
+        yield return new WaitForSeconds(0.5f);
+        ThisWPNumber = LastWPNumber;
+    }
+
 }

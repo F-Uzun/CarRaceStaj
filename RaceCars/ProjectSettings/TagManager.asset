@@ -8,6 +8,8 @@ TagManager:
   - Terrain
   - Rumble
   - Barrier
+  - Progress
+  - yol
   layers:
   - Default
   - TransparentFX
