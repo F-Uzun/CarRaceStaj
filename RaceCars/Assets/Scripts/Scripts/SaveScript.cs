@@ -34,6 +34,21 @@ public class SaveScript : MonoBehaviour
     public static bool HalfWayActivated = true;
     public static bool WWTextReset = false;
     public static bool RaceStart = false;
+    public static float TimeTrialMinG;
+    public static float TimeTrialMinS;
+    public static float TimeTrialMinB;
+    public static float TimeTrialSecondsG;
+    public static float TimeTrialSecondsS;
+    public static float TimeTrialSecondsB;
+    public static int MaxLaps;
+    public static bool RaceOver = false;
+    public static int PlayerPosition;
+    public static bool Gold = false;
+    public static bool Silver = false;
+    public static bool Bronze = false;
+    public static bool Fail = false;
+    public static float PenaltySeconds = 0;
+
 
 
     void Start()
@@ -43,33 +58,31 @@ public class SaveScript : MonoBehaviour
 
     void Update()
     {
-        if (LapChange == true)
+        if (RaceOver == false)
         {
-            LapChange = false;
-            LapTimeMinutes = 0f;
-            LapTimeSeconds = 0f;
-            GameTime = 0f;
+            if (LapChange == true)
+            {
+                LapChange = false;
+                LapTimeMinutes = 0f;
+                LapTimeSeconds = 0f;
+                GameTime = 0f;
+            }
+            if (LapNumber >= 1)
+            {
+                LapTimeSeconds = LapTimeSeconds + 1 * Time.deltaTime;
+                RaceTimeSeconds = RaceTimeSeconds + 1 * Time.deltaTime;
+                GameTime = GameTime + 1 * Time.deltaTime;
+            }
+            if (LapTimeSeconds > 59)
+            {
+                LapTimeSeconds = 0f;
+                LapTimeMinutes++;
+            }
+            if (RaceTimeSeconds > 59)
+            {
+                RaceTimeSeconds = 0f;
+                RaceTimeMinutes++;
+            }
         }
-
-        if (LapNumber >= 1)
-        {
-            LapTimeSeconds = LapTimeSeconds + 1 * Time.deltaTime;
-            RaceTimeSeconds = RaceTimeSeconds + 1 * Time.deltaTime;
-            GameTime = GameTime + 1 * Time.deltaTime;
-        }
-
-        if(LapTimeSeconds > 59)
-        {
-            LapTimeSeconds = 0f;
-            LapTimeMinutes++;
-        }
-
-        if (RaceTimeSeconds > 59)
-        {
-            RaceTimeSeconds = 0f;
-            RaceTimeMinutes++;
-        }
-
-
     }
 }
