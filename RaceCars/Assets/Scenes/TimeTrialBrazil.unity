@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2035111234}
-  m_IndirectSpecularColor: {r: 113.80656, g: 121.218376, b: 153.08162, a: 1}
+  m_IndirectSpecularColor: {r: 113.74915, g: 121.20103, b: 153.14117, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7757,7 +7757,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1.1
+    m_Stiffness: 0.9
   m_Enabled: 1
 --- !u!146 &839120914
 WheelCollider:
@@ -7781,13 +7781,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 3
+    m_Stiffness: 2.6
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1.1
+    m_Stiffness: 0.8
   m_Enabled: 1
 --- !u!146 &839120916
 WheelCollider:
@@ -7811,13 +7811,13 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
-    m_Stiffness: 3
+    m_Stiffness: 2.6
   m_SidewaysFriction:
     m_ExtremumSlip: 0.2
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1.1
+    m_Stiffness: 0.8
   m_Enabled: 1
 --- !u!146 &839120918
 WheelCollider:
@@ -7847,7 +7847,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 1.1
+    m_Stiffness: 0.9
   m_Enabled: 1
 --- !u!114 &846253056
 MonoBehaviour:
@@ -7968,6 +7968,7 @@ MonoBehaviour:
   m_RevRangeBoundary: 0.6
   m_SlipLimit: 0.8
   m_BrakeTorque: 40000
+  MySteerHelper: 0.66
 --- !u!114 &846253082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9048,9 +9049,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 110b56f944fdb9748a1a87f43bd6b94d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoadForwardStiffness: 3
+  RoadForwardStiffness: 2.6
   TerrainForwardStiffness: 0.6
-  RoadSideWaysStiffness: 1.1
+  RoadSideWaysStiffness: 0.8
   TerrainSidewaysStiffness: 0.2
 --- !u!1 &853326226
 GameObject:
@@ -9084,9 +9085,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 110b56f944fdb9748a1a87f43bd6b94d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RoadForwardStiffness: 3
+  RoadForwardStiffness: 2.6
   TerrainForwardStiffness: 0.6
-  RoadSideWaysStiffness: 1.1
+  RoadSideWaysStiffness: 0.8
   TerrainSidewaysStiffness: 0.2
 --- !u!1 &853326228
 GameObject:
@@ -9122,7 +9123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RoadForwardStiffness: 3
   TerrainForwardStiffness: 0.6
-  RoadSideWaysStiffness: 1.1
+  RoadSideWaysStiffness: 0.9
   TerrainSidewaysStiffness: 0.2
 --- !u!1 &853326230
 GameObject:
@@ -9158,7 +9159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RoadForwardStiffness: 3
   TerrainForwardStiffness: 0.6
-  RoadSideWaysStiffness: 1.1
+  RoadSideWaysStiffness: 0.9
   TerrainSidewaysStiffness: 0.2
 --- !u!1 &853326238
 GameObject:

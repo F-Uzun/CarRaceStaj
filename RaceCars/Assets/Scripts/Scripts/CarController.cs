@@ -36,6 +36,7 @@ namespace UnityStandardAssets.Vehicles.Car
         [SerializeField] private float m_RevRangeBoundary = 1f;
         [SerializeField] private float m_SlipLimit;
         [SerializeField] private float m_BrakeTorque;
+        public float MySteerHelper = 0.66f;
 
         private Quaternion[] m_WheelMeshLocalRotations;
         private Vector3 m_Prevpos, m_Pos;
@@ -46,6 +47,8 @@ namespace UnityStandardAssets.Vehicles.Car
         private float m_CurrentTorque;
         private Rigidbody m_Rigidbody;
         private const float k_ReversingThreshold = 0.01f;
+
+        public bool Player = true;
 
         public bool Skidding { get; private set; }
         public float BrakeInput { get; private set; }
@@ -75,8 +78,22 @@ namespace UnityStandardAssets.Vehicles.Car
 
         private void Update()
         {
-            SaveScript.Speed = CurrentSpeed;
-            SaveScript.Gear = m_GearNum;
+            if (Player == true) 
+            {
+                SaveScript.Speed = CurrentSpeed;
+                SaveScript.Gear = m_GearNum;
+
+                if (SaveScript.BrakeSlide == true)
+                {
+                    m_SteerHelper = 0.99f;
+                }
+                if (SaveScript.BrakeSlide == false)
+                {
+                    m_SteerHelper = MySteerHelper;
+                }
+            }
+            
+
         }
 
 
@@ -283,25 +300,29 @@ namespace UnityStandardAssets.Vehicles.Car
             {
                 WheelHit wheelHit;
                 m_WheelColliders[i].GetGroundHit(out wheelHit);
-                if (SaveScript.OnTheTerrain == true)
+
+
+                if (Player == true) 
                 {
-                    if (wheelHit.collider.CompareTag("Road"))
+                    if (SaveScript.OnTheTerrain == true)
                     {
-                        SaveScript.OnTheRoad = true;
-                        SaveScript.OnTheTerrain = false;
+                        if (wheelHit.collider.CompareTag("Road"))
+                        {
+                            SaveScript.OnTheRoad = true;
+                            SaveScript.OnTheTerrain = false;
+                        }
+                    }
+
+                    if (SaveScript.OnTheRoad == true)
+                    {
+                        if (wheelHit.collider.CompareTag("Terrain"))
+                        {
+                            SaveScript.OnTheRoad = false;
+                            SaveScript.OnTheTerrain = true;
+                        }
                     }
                 }
 
-                if (SaveScript.OnTheRoad == true)
-                {
-                    if (wheelHit.collider.CompareTag("Terrain"))
-                    {
-                        SaveScript.OnTheRoad = false;
-                        SaveScript.OnTheTerrain = true;
-                    }
-                }
-
-                
 
                 // is the tire slipping above the given threshhold
                 if (Mathf.Abs(wheelHit.forwardSlip) >= m_SlipLimit || Mathf.Abs(wheelHit.sidewaysSlip) >= m_SlipLimit)
@@ -346,26 +367,35 @@ namespace UnityStandardAssets.Vehicles.Car
                 case CarDriveType.RearWheelDrive:
                     m_WheelColliders[2].GetGroundHit(out wheelHit);
                     AdjustTorque(wheelHit.forwardSlip);
-                    if (wheelHit.collider.CompareTag("Rumble") && CurrentSpeed>10)
+                    if (Player == true) 
                     {
-                        SaveScript.Rumble1 = true;
+                        if (wheelHit.collider.CompareTag("Rumble") && CurrentSpeed > 10)
+                        {
+                            SaveScript.Rumble1 = true;
+                        }
+                        else
+                        {
+                            SaveScript.Rumble1 = false;
+                        }
                     }
-                    else
-                    {
-                        SaveScript.Rumble1 = false;
-                    }
+                    
 
 
                     m_WheelColliders[3].GetGroundHit(out wheelHit);
                     AdjustTorque(wheelHit.forwardSlip);
-                    if (wheelHit.collider.CompareTag("Rumble") && CurrentSpeed > 10)
+
+                    if (Player == true)
                     {
-                        SaveScript.Rumble2 = true;
+                        if (wheelHit.collider.CompareTag("Rumble") && CurrentSpeed > 10)
+                        {
+                            SaveScript.Rumble2 = true;
+                        }
+                        else
+                        {
+                            SaveScript.Rumble2 = false;
+                        }
                     }
-                    else
-                    {
-                        SaveScript.Rumble2 = false;
-                    }
+                   
                     break;
 
                 case CarDriveType.FrontWheelDrive:

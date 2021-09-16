@@ -10,6 +10,7 @@ TagManager:
   - Barrier
   - Progress
   - yol
+  - AI
   layers:
   - Default
   - TransparentFX
