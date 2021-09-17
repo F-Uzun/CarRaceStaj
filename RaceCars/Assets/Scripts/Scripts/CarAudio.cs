@@ -92,13 +92,29 @@ namespace UnityStandardAssets.Vehicles.Car
             // stop sound if the object is beyond the maximum roll off distance
             if (m_StartedSound && camDist > maxRolloffDistance*maxRolloffDistance)
             {
-                StopSound();
+                //StopSound();
+                if (camDist > maxRolloffDistance * maxRolloffDistance)
+                {
+                    m_HighAccel.volume = m_HighAccel.volume -= 0.3f * Time.deltaTime;
+                    if (m_HighAccel.volume <= 0)
+                    {
+                        m_HighAccel.volume = 0;
+                    }
+                }
             }
 
             // start the sound if not playing and it is nearer than the maximum distance
             if (!m_StartedSound && camDist < maxRolloffDistance*maxRolloffDistance)
             {
                 StartSound();
+                if(camDist < maxRolloffDistance * maxRolloffDistance)
+                {
+                    m_HighAccel.volume = m_HighAccel.volume +=0.3f * Time.deltaTime;
+                    if(m_HighAccel.volume >= 1)
+                    {
+                        m_HighAccel.volume = 1;
+                    }
+                }
             }
 
             if (m_StartedSound)
@@ -114,7 +130,15 @@ namespace UnityStandardAssets.Vehicles.Car
                     // for 1 channel engine sound, it's oh so simple:
                     m_HighAccel.pitch = pitch*pitchMultiplier*highPitchMultiplier;
                     m_HighAccel.dopplerLevel = useDoppler ? dopplerLevel : 0;
-                    m_HighAccel.volume = 1;
+                    if (camDist < maxRolloffDistance * maxRolloffDistance)
+                    {
+                        m_HighAccel.volume = m_HighAccel.volume += 0.3f * Time.deltaTime;
+                        if (m_HighAccel.volume >= 1)
+                        {
+                            m_HighAccel.volume = 1;
+                        }
+                    }
+                   // m_HighAccel.volume = 1;
                 }
                 else
                 {
