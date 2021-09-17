@@ -1,0 +1,17 @@
+2.hafta
+Tekerleklerde oluşan buglar düzeltildi.
+Arabanın farklı zemine göre yol tutuşu ayarlandı.
+Ses efektleri eklendi.
+Scriptlerde optimizasyon yapıldı.
+Playerın yarış sırasında kaçıncı sırada olduğunu gösteren bir sistem yapıldı.
+Player yanlış yöne gittiğinde wrong way texti gösteriliyor.
+Tur tamamlama scriptleri eklendi.
+Yarış startında ışıklar ve sesler ayarlandı.
+Time trial(serbest tur atma) için belli sürelere göre gold silver ve bronze result göstermesi ayarlandı.
+Eğer kullanıcı hile yaparak geçerse bu süreden eksiliyor.
+Aracın yol tutuşu daha iyi hale getirildi.
+AI araçları eklendi.
+AI araçlarının takip edeceği path ayarlandı.
+AI ların yolu düzgün takip etmesi için gereken ayarlar yapıldı.
+
+
