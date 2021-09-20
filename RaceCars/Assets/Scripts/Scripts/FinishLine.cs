@@ -4,13 +4,27 @@ using UnityEngine;
 
 public class FinishLine : MonoBehaviour
 {
+    public GameObject LeaderBoard;
+    public string PlayerName;
+    public static int PlayerFinishPosition;
+    public static string PName;
+
+    private void Start()
+    {
+        PName = PlayerName;
+    }
+
+
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("HELLO");
+            SaveScript.FinishPositionID++;
+            PlayerFinishPosition = SaveScript.FinishPositionID;
             SaveScript.RaceOver = true;
             Time.timeScale = 0.2f;
+            LeaderBoard.SetActive(true);
         }
     }
 }

@@ -38,6 +38,35 @@ public class Lap : MonoBehaviour
                 }
             }
         }
+
+        if (other.gameObject.CompareTag("ProgressAI1"))
+        {
+            SaveScript.AICar1LapNumber++;
+        }
+        if (other.gameObject.CompareTag("ProgressAI1"))
+        {
+            SaveScript.AICar2LapNumber++;
+        }
+        if (other.gameObject.CompareTag("ProgressAI1"))
+        {
+            SaveScript.AICar3LapNumber++;
+        }
+        if (other.gameObject.CompareTag("ProgressAI1"))
+        {
+            SaveScript.AICar4LapNumber++;
+        }
+        if (other.gameObject.CompareTag("ProgressAI1"))
+        {
+            SaveScript.AICar5LapNumber++;
+        }
+        if (other.gameObject.CompareTag("ProgressAI1"))
+        {
+            SaveScript.AICar6LapNumber++;
+        }
+        if (other.gameObject.CompareTag("ProgressAI1"))
+        {
+            SaveScript.AICar7LapNumber++;
+        }
     }
 
     IEnumerator WrongWayReset()

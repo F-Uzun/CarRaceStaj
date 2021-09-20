@@ -49,6 +49,14 @@ public class SaveScript : MonoBehaviour
     public static bool Bronze = false;
     public static bool Fail = false;
     public static float PenaltySeconds = 0;
+    public static int AICar1LapNumber = 0;
+    public static int AICar2LapNumber = 0;
+    public static int AICar3LapNumber = 0;
+    public static int AICar4LapNumber = 0;
+    public static int AICar5LapNumber = 0;
+    public static int AICar6LapNumber = 0;
+    public static int AICar7LapNumber = 0;
+    public static int FinishPositionID = 0;
 
 
 

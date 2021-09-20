@@ -42,6 +42,11 @@ public class ProgressTracker : MonoBehaviour
 
     private void Update()
     {
+        if(SaveScript.LapChange == true)
+        {
+            CurrentWP = 0;
+        }
+
         if(CurrentWP > LastWPNumber)
         {
             StartCoroutine(CheckDirection());
