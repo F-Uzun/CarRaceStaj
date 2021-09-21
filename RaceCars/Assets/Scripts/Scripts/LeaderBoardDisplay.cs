@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class LeaderBoardDisplay : MonoBehaviour
 {
-
     public Text Position;
     public Text Name;
     public Text Minutes;
@@ -20,33 +20,29 @@ public class LeaderBoardDisplay : MonoBehaviour
     public bool AI7;
     public bool Player;
 
-
-    
     void Update()
     {
         if (AI1 == true)
         {
             Position.text = FinishLineAI.AICar1FinishPosition.ToString();
             Name.text = FinishLineAI.AICar1Name;
-            if(FinishLineAI.AICar1RTMinutes <= 9)
+            if (FinishLineAI.AICar1RTMinutes <= 9)
             {
                 Minutes.text = "0" + Mathf.Round(FinishLineAI.AICar1RTMinutes).ToString() + ":";
             }
-            if(FinishLineAI.AICar1RTMinutes >= 10)
+            if (FinishLineAI.AICar1RTMinutes >= 10)
             {
-                Minutes.text =Mathf.Round(FinishLineAI.AICar1RTMinutes).ToString() + ":";
+                Minutes.text = Mathf.Round(FinishLineAI.AICar1RTMinutes).ToString() + ":";
             }
-
             if (FinishLineAI.AICar1RTSeconds <= 9)
             {
                 Seconds.text = "0" + Mathf.Round(FinishLineAI.AICar1RTSeconds).ToString();
             }
-            if (FinishLineAI.AICar1RTMinutes >= 10)
+            if (FinishLineAI.AICar1RTSeconds >= 10)
             {
                 Seconds.text = Mathf.Round(FinishLineAI.AICar1RTSeconds).ToString();
             }
         }
-
 
         if (AI2 == true)
         {
@@ -60,7 +56,6 @@ public class LeaderBoardDisplay : MonoBehaviour
             {
                 Minutes.text = Mathf.Round(FinishLineAI.AICar2RTMinutes).ToString() + ":";
             }
-
             if (FinishLineAI.AICar2RTSeconds <= 9)
             {
                 Seconds.text = "0" + Mathf.Round(FinishLineAI.AICar2RTSeconds).ToString();
@@ -70,8 +65,6 @@ public class LeaderBoardDisplay : MonoBehaviour
                 Seconds.text = Mathf.Round(FinishLineAI.AICar2RTSeconds).ToString();
             }
         }
-
-
 
         if (AI3 == true)
         {
@@ -85,7 +78,6 @@ public class LeaderBoardDisplay : MonoBehaviour
             {
                 Minutes.text = Mathf.Round(FinishLineAI.AICar3RTMinutes).ToString() + ":";
             }
-
             if (FinishLineAI.AICar3RTSeconds <= 9)
             {
                 Seconds.text = "0" + Mathf.Round(FinishLineAI.AICar3RTSeconds).ToString();
@@ -95,8 +87,6 @@ public class LeaderBoardDisplay : MonoBehaviour
                 Seconds.text = Mathf.Round(FinishLineAI.AICar3RTSeconds).ToString();
             }
         }
-
-
 
 
         if (AI4 == true)
@@ -111,7 +101,6 @@ public class LeaderBoardDisplay : MonoBehaviour
             {
                 Minutes.text = Mathf.Round(FinishLineAI.AICar4RTMinutes).ToString() + ":";
             }
-
             if (FinishLineAI.AICar4RTSeconds <= 9)
             {
                 Seconds.text = "0" + Mathf.Round(FinishLineAI.AICar4RTSeconds).ToString();
@@ -121,7 +110,6 @@ public class LeaderBoardDisplay : MonoBehaviour
                 Seconds.text = Mathf.Round(FinishLineAI.AICar4RTSeconds).ToString();
             }
         }
-
 
         if (AI5 == true)
         {
@@ -135,7 +123,6 @@ public class LeaderBoardDisplay : MonoBehaviour
             {
                 Minutes.text = Mathf.Round(FinishLineAI.AICar5RTMinutes).ToString() + ":";
             }
-
             if (FinishLineAI.AICar5RTSeconds <= 9)
             {
                 Seconds.text = "0" + Mathf.Round(FinishLineAI.AICar5RTSeconds).ToString();
@@ -145,8 +132,6 @@ public class LeaderBoardDisplay : MonoBehaviour
                 Seconds.text = Mathf.Round(FinishLineAI.AICar5RTSeconds).ToString();
             }
         }
-
-
 
         if (AI6 == true)
         {
@@ -160,7 +145,6 @@ public class LeaderBoardDisplay : MonoBehaviour
             {
                 Minutes.text = Mathf.Round(FinishLineAI.AICar6RTMinutes).ToString() + ":";
             }
-
             if (FinishLineAI.AICar6RTSeconds <= 9)
             {
                 Seconds.text = "0" + Mathf.Round(FinishLineAI.AICar6RTSeconds).ToString();
@@ -183,7 +167,6 @@ public class LeaderBoardDisplay : MonoBehaviour
             {
                 Minutes.text = Mathf.Round(FinishLineAI.AICar7RTMinutes).ToString() + ":";
             }
-
             if (FinishLineAI.AICar7RTSeconds <= 9)
             {
                 Seconds.text = "0" + Mathf.Round(FinishLineAI.AICar7RTSeconds).ToString();
@@ -193,8 +176,6 @@ public class LeaderBoardDisplay : MonoBehaviour
                 Seconds.text = Mathf.Round(FinishLineAI.AICar7RTSeconds).ToString();
             }
         }
-
-
 
         if (Player == true)
         {
@@ -208,7 +189,6 @@ public class LeaderBoardDisplay : MonoBehaviour
             {
                 Minutes.text = Mathf.Round(SaveScript.RaceTimeMinutes).ToString() + ":";
             }
-
             if (SaveScript.RaceTimeSeconds <= 9)
             {
                 Seconds.text = "0" + Mathf.Round(SaveScript.RaceTimeSeconds).ToString();
@@ -218,7 +198,5 @@ public class LeaderBoardDisplay : MonoBehaviour
                 Seconds.text = Mathf.Round(SaveScript.RaceTimeSeconds).ToString();
             }
         }
-
-
     }
 }

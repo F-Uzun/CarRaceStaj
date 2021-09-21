@@ -49,6 +49,17 @@ namespace UnityStandardAssets.Vehicles.Car
 
         private bool BarrierStop = false;
 
+        private bool RaceCompleted = false;
+
+        public bool AI1;
+        public bool AI2;
+        public bool AI3;
+        public bool AI4;
+        public bool AI5;
+        public bool AI6;
+        public bool AI7;
+
+
 
         private void Awake()
         {
@@ -72,7 +83,7 @@ namespace UnityStandardAssets.Vehicles.Car
             }
             else
             {
-                if (SaveScript.RaceStart == true)
+                if (SaveScript.RaceStart == true && RaceCompleted == false)
                 {
                     Vector3 fwd = transform.forward;
                     if (m_Rigidbody.velocity.magnitude > m_CarController.MaxSpeed*0.1f)
@@ -201,6 +212,61 @@ namespace UnityStandardAssets.Vehicles.Car
             {
                 BarrierStop = true;
             }
+            if(AI1 == true)
+            {
+                if (other.gameObject.CompareTag("AI1"))
+                {
+                    StartCoroutine(StopDriving());
+                }
+            }
+
+            if (AI2 == true)
+            {
+                if (other.gameObject.CompareTag("AI2"))
+                {
+                    StartCoroutine(StopDriving());
+                }
+            }
+
+            if (AI3 == true)
+            {
+                if (other.gameObject.CompareTag("AI3"))
+                {
+                    StartCoroutine(StopDriving());
+                }
+            }
+
+            if (AI4 == true)
+            {
+                if (other.gameObject.CompareTag("AI4"))
+                {
+                    StartCoroutine(StopDriving());
+                }
+            }
+
+            if (AI5 == true)
+            {
+                if (other.gameObject.CompareTag("AI5"))
+                {
+                    StartCoroutine(StopDriving());
+                }
+            }
+
+            if (AI6 == true)
+            {
+                if (other.gameObject.CompareTag("AI6"))
+                {
+                    StartCoroutine(StopDriving());
+                }
+            }
+
+            if (AI7 == true)
+            {
+                if (other.gameObject.CompareTag("AI7"))
+                {
+                    StartCoroutine(StopDriving());
+                }
+            }
         }
 
         private void OnTriggerExit(Collider other)
@@ -259,8 +325,15 @@ namespace UnityStandardAssets.Vehicles.Car
 
         IEnumerator BarrierReset()
         {
-            yield return new WaitForSeconds(1.5F);
+            yield return new WaitForSeconds(Random.Range(1f,5f));
             BarrierStop = false;
+        }
+
+        IEnumerator StopDriving()
+        {
+            yield return new WaitForSeconds(Random.Range(1f, 9f));
+            RaceCompleted = true;
+            m_CarController.Move(0, 0, -1f, 1f);
         }
 
     }

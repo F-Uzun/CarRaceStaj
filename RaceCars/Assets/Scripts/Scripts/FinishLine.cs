@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FinishLine : MonoBehaviour
 {
-    public GameObject LeaderBoard;
+    public GameObject Leaderboard;
     public string PlayerName;
     public static int PlayerFinishPosition;
     public static string PName;
@@ -14,8 +14,6 @@ public class FinishLine : MonoBehaviour
         PName = PlayerName;
     }
 
-
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -24,7 +22,8 @@ public class FinishLine : MonoBehaviour
             PlayerFinishPosition = SaveScript.FinishPositionID;
             SaveScript.RaceOver = true;
             Time.timeScale = 0.2f;
-            LeaderBoard.SetActive(true);
+            Leaderboard.SetActive(true);
+
         }
     }
 }

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TimeTrialBrazil.unity
-    guid: cbfe36cfddfde964d9dfce63a355d5dd
+    path: Assets/Scenes/MainMenu.unity
+    guid: e1cc59cf3d5b1e244bfb55458eb245ec
+  - enabled: 1
+    path: Assets/Scenes/RaceTrackSelection.unity
+    guid: 0c1b3fe31d40d6945bceb7b6f7acbf6f
   m_configObjects: {}

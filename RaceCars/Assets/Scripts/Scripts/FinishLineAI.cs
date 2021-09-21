@@ -13,49 +13,39 @@ public class FinishLineAI : MonoBehaviour
     public bool AI7;
     public string CarName;
 
-
     public static int AICar1FinishPosition;
     public static string AICar1Name;
     public static float AICar1RTMinutes;
     public static float AICar1RTSeconds;
-
     public static int AICar2FinishPosition;
     public static string AICar2Name;
     public static float AICar2RTMinutes;
     public static float AICar2RTSeconds;
-
-
     public static int AICar3FinishPosition;
     public static string AICar3Name;
     public static float AICar3RTMinutes;
     public static float AICar3RTSeconds;
-
-
     public static int AICar4FinishPosition;
     public static string AICar4Name;
     public static float AICar4RTMinutes;
     public static float AICar4RTSeconds;
-
-
     public static int AICar5FinishPosition;
     public static string AICar5Name;
     public static float AICar5RTMinutes;
     public static float AICar5RTSeconds;
-
-
     public static int AICar6FinishPosition;
     public static string AICar6Name;
     public static float AICar6RTMinutes;
     public static float AICar6RTSeconds;
-
     public static int AICar7FinishPosition;
     public static string AICar7Name;
     public static float AICar7RTMinutes;
     public static float AICar7RTSeconds;
 
+
     private void OnTriggerEnter(Collider other)
     {
-        if(AI1 = true) 
+        if (AI1 == true)
         {
             if (other.gameObject.CompareTag("ProgressAI1"))
             {
@@ -67,7 +57,7 @@ public class FinishLineAI : MonoBehaviour
             }
         }
 
-        if (AI2 = true)
+        if (AI2 == true)
         {
             if (other.gameObject.CompareTag("ProgressAI2"))
             {
@@ -79,7 +69,7 @@ public class FinishLineAI : MonoBehaviour
             }
         }
 
-        if (AI3 = true)
+        if (AI3 == true)
         {
             if (other.gameObject.CompareTag("ProgressAI3"))
             {
@@ -91,7 +81,7 @@ public class FinishLineAI : MonoBehaviour
             }
         }
 
-        if (AI4 = true)
+        if (AI4 == true)
         {
             if (other.gameObject.CompareTag("ProgressAI4"))
             {
@@ -103,9 +93,7 @@ public class FinishLineAI : MonoBehaviour
             }
         }
 
-
-
-        if (AI5 = true)
+        if (AI5 == true)
         {
             if (other.gameObject.CompareTag("ProgressAI5"))
             {
@@ -118,7 +106,7 @@ public class FinishLineAI : MonoBehaviour
         }
 
 
-        if (AI6 = true)
+        if (AI6 == true)
         {
             if (other.gameObject.CompareTag("ProgressAI6"))
             {
@@ -130,8 +118,7 @@ public class FinishLineAI : MonoBehaviour
             }
         }
 
-
-        if (AI7 = true)
+        if (AI7 == true)
         {
             if (other.gameObject.CompareTag("ProgressAI7"))
             {

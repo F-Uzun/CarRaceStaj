@@ -176,6 +176,15 @@ namespace UnityStandardAssets.Vehicles.Car
                     m_HighDecel.dopplerLevel = useDoppler ? dopplerLevel : 0;
                     m_LowDecel.dopplerLevel = useDoppler ? dopplerLevel : 0;
                 }
+
+                if(SaveScript.RaceOver == true)
+                {
+                    m_HighAccel.volume = m_HighAccel.volume -= 2.5f * Time.deltaTime;
+                    if (m_HighAccel.volume <= 0)
+                    {
+                        m_HighAccel.volume = 0;
+                    }
+                }
             }
         }
 

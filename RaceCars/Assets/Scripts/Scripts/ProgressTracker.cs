@@ -47,7 +47,8 @@ public class ProgressTracker : MonoBehaviour
             CurrentWP = 0;
         }
 
-        if(CurrentWP > LastWPNumber)
+
+        if (CurrentWP > LastWPNumber)
         {
             StartCoroutine(CheckDirection());
         }

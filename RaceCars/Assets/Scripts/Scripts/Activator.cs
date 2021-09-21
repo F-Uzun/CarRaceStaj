@@ -19,15 +19,12 @@ public class Activator : MonoBehaviour
         if (other.gameObject.CompareTag("Progress"))
         {
             SaveScript.HalfWayActivated = true;
-
-
-            if (SaveScript.LapNumber == SaveScript.MaxLaps)
+            if
+           (SaveScript.LapNumber == SaveScript.MaxLaps)
             {
                 FinishPoint.SetActive(true);
             }
         }
-
-
         if (other.gameObject.CompareTag("ProgressAI1"))
         {
             if (SaveScript.AICar1LapNumber == SaveScript.MaxLaps)
@@ -36,15 +33,14 @@ public class Activator : MonoBehaviour
             }
         }
 
-
         if (other.gameObject.CompareTag("ProgressAI2"))
         {
-            if (SaveScript.AICar2LapNumber == SaveScript.MaxLaps)
+            if
+           (SaveScript.AICar2LapNumber == SaveScript.MaxLaps)
             {
                 FinishPointAI2.SetActive(true);
             }
         }
-
         if (other.gameObject.CompareTag("ProgressAI3"))
         {
             if (SaveScript.AICar3LapNumber == SaveScript.MaxLaps)
@@ -52,7 +48,6 @@ public class Activator : MonoBehaviour
                 FinishPointAI3.SetActive(true);
             }
         }
-
         if (other.gameObject.CompareTag("ProgressAI4"))
         {
             if (SaveScript.AICar4LapNumber == SaveScript.MaxLaps)
@@ -60,7 +55,6 @@ public class Activator : MonoBehaviour
                 FinishPointAI4.SetActive(true);
             }
         }
-
         if (other.gameObject.CompareTag("ProgressAI5"))
         {
             if (SaveScript.AICar5LapNumber == SaveScript.MaxLaps)
@@ -68,22 +62,19 @@ public class Activator : MonoBehaviour
                 FinishPointAI5.SetActive(true);
             }
         }
-
         if (other.gameObject.CompareTag("ProgressAI6"))
         {
-            if (SaveScript.AICar6LapNumber == SaveScript.MaxLaps)
+            if(SaveScript.AICar6LapNumber == SaveScript.MaxLaps)
             {
                 FinishPointAI6.SetActive(true);
             }
         }
-
         if (other.gameObject.CompareTag("ProgressAI7"))
         {
-            if (SaveScript.AICar7LapNumber == SaveScript.MaxLaps)
+            if(SaveScript.AICar7LapNumber == SaveScript.MaxLaps)
             {
                 FinishPointAI7.SetActive(true);
             }
         }
-
     }
 }
