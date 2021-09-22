@@ -26,33 +26,134 @@ public class UIScript : MonoBehaviour
     public GameObject NewLapRecord;
     public GameObject WrongWayText;
     private float DisplaySpeed;
-    public int TotalLaps = 3;
-    public int TotalCars = 1;
+    private int TotalLaps = 3;
+    private int TotalCars = 1;
+    public bool RaceTrack = true;
+    public GameObject F1Opponent1;
+    public GameObject F1Opponent2;
+    public GameObject F1Opponent3;
+    public GameObject F1Opponent4;
+    public GameObject F1Opponent5;
+    public GameObject F1Opponent6;
+    public GameObject F1Opponent7;
 
 
 
 
     void Start()
     {
-        SpeedText.text = "0"
-;
-        GearText.text = "1"
-       ;
-        LapNumberText.text = "0"
-       ;
+        TotalLaps = UniversalSave.LapCounts;
+        TotalCars = UniversalSave.OpponentCounts + 1;
+        SpeedRing.fillAmount = 0;
+        SpeedText.text = "0";
+        GearText.text = "1";
+        LapNumberText.text = "0";
         TotalLapsText.text = "/" + TotalLaps.ToString();
         CheckPointDisplay.SetActive(false);
         NewLapRecord.SetActive(false);
         WrongWayText.SetActive(false);
         SaveScript.MaxLaps = TotalLaps;
         TotalCarsText.text = "/" + TotalCars.ToString();
-        PlayersPosition.text = "1"
-       ;
-
-
-
-
+        PlayersPosition.text = "1";
+        if(RaceTrack == true)
+        {
+            SetCarVisibility();
+        }
+        
     }
+
+
+    void SetCarVisibility()
+    {
+        if (TotalCars == 1)
+        {
+            F1Opponent1.SetActive(false);
+            F1Opponent2.SetActive(false);
+            F1Opponent3.SetActive(false);
+            F1Opponent4.SetActive(false);
+            F1Opponent5.SetActive(false);
+            F1Opponent6.SetActive(false);
+            F1Opponent7.SetActive(false);
+        }
+
+        if (TotalCars == 2)
+        {
+            F1Opponent1.SetActive(true);
+            F1Opponent2.SetActive(false);
+            F1Opponent3.SetActive(false);
+            F1Opponent4.SetActive(false);
+            F1Opponent5.SetActive(false);
+            F1Opponent6.SetActive(false);
+            F1Opponent7.SetActive(false);
+        }
+
+        if (TotalCars == 3)
+        {
+            F1Opponent1.SetActive(true);
+            F1Opponent2.SetActive(true);
+            F1Opponent3.SetActive(false);
+            F1Opponent4.SetActive(false);
+            F1Opponent5.SetActive(false);
+            F1Opponent6.SetActive(false);
+            F1Opponent7.SetActive(false);
+        }
+
+        if (TotalCars == 4)
+        {
+            F1Opponent1.SetActive(true);
+            F1Opponent2.SetActive(true);
+            F1Opponent3.SetActive(true);
+            F1Opponent4.SetActive(false);
+            F1Opponent5.SetActive(false);
+            F1Opponent6.SetActive(false);
+            F1Opponent7.SetActive(false);
+        }
+
+        if (TotalCars == 5)
+        {
+            F1Opponent1.SetActive(true);
+            F1Opponent2.SetActive(true);
+            F1Opponent3.SetActive(true);
+            F1Opponent4.SetActive(true);
+            F1Opponent5.SetActive(false);
+            F1Opponent6.SetActive(false);
+            F1Opponent7.SetActive(false);
+        }
+
+        if (TotalCars == 6)
+        {
+            F1Opponent1.SetActive(true);
+            F1Opponent2.SetActive(true);
+            F1Opponent3.SetActive(true);
+            F1Opponent4.SetActive(true);
+            F1Opponent5.SetActive(true);
+            F1Opponent6.SetActive(false);
+            F1Opponent7.SetActive(false);
+        }
+
+        if (TotalCars == 7)
+        {
+            F1Opponent1.SetActive(true);
+            F1Opponent2.SetActive(true);
+            F1Opponent3.SetActive(true);
+            F1Opponent4.SetActive(true);
+            F1Opponent5.SetActive(true);
+            F1Opponent6.SetActive(true);
+            F1Opponent7.SetActive(false);
+        }
+
+        if (TotalCars == 8)
+        {
+            F1Opponent1.SetActive(true);
+            F1Opponent2.SetActive(true);
+            F1Opponent3.SetActive(true);
+            F1Opponent4.SetActive(true);
+            F1Opponent5.SetActive(true);
+            F1Opponent6.SetActive(true);
+            F1Opponent7.SetActive(true);
+        }
+    }
+
 
     void Update()
     {

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UITimeTrial : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class UITimeTrial : MonoBehaviour
     public GameObject GoldStar;
     public GameObject SilverStar;
     public GameObject BronzeStar;
+    public GameObject QuitPanel;
 
     private bool Winner = false;
 
@@ -26,50 +28,40 @@ public class UITimeTrial : MonoBehaviour
     {
         TimeTrialObject.SetActive(true);
         TimeTrialResults.SetActive(false);
+        QuitPanel.SetActive(false);
     }
 
     void Update()
     {
         //Setting the timetrial Gold time
-        if
-       (SaveScript.TimeTrialMinG <= 9)
+        if(SaveScript.TimeTrialMinG <= 9)
         {
-            TimeTrialMinutesG.text = "0" + SaveScript.TimeTrialMinG.ToString() + ":"
-           ;
+            TimeTrialMinutesG.text = "0" + SaveScript.TimeTrialMinG.ToString() + ":";
         }
-        if
-       (SaveScript.TimeTrialMinG >= 10)
+        if(SaveScript.TimeTrialMinG >= 10)
         {
-            TimeTrialMinutesG.text = SaveScript.TimeTrialMinG.ToString() + ":"
-           ;
+            TimeTrialMinutesG.text = SaveScript.TimeTrialMinG.ToString() + ":";
         }
-        if
-       (SaveScript.TimeTrialSecondsG <= 9)
+        if(SaveScript.TimeTrialSecondsG <= 9)
         {
             TimeTrialSecondsG.text = "0" + SaveScript.TimeTrialSecondsG.ToString();
         }
-        if
-       (SaveScript.TimeTrialSecondsG >= 10)
+        if(SaveScript.TimeTrialSecondsG >= 10)
         {
             TimeTrialSecondsG.text = SaveScript.TimeTrialSecondsG.ToString();
         }
 
 
         //Setting the timetrial Silver time
-        if
-       (SaveScript.TimeTrialMinS <= 9)
+        if(SaveScript.TimeTrialMinS <= 9)
         {
-            TimeTrialMinutesS.text = "0" + SaveScript.TimeTrialMinS.ToString() + ":"
-           ;
+            TimeTrialMinutesS.text = "0" + SaveScript.TimeTrialMinS.ToString() + ":";
         }
-        if
-       (SaveScript.TimeTrialMinS >= 10)
+        if(SaveScript.TimeTrialMinS >= 10)
         {
-            TimeTrialMinutesS.text = SaveScript.TimeTrialMinS.ToString() + ":"
-           ;
+            TimeTrialMinutesS.text = SaveScript.TimeTrialMinS.ToString() + ":";
         }
-        if
-       (SaveScript.TimeTrialSecondsS <= 9)
+        if(SaveScript.TimeTrialSecondsS <= 9)
         {
             TimeTrialSecondsS.text = "0" + SaveScript.TimeTrialSecondsS.ToString();
         }
@@ -87,41 +79,36 @@ public class UITimeTrial : MonoBehaviour
 
         //TimeTrialBronzeTime
         //Setting the timetrial Bronze time
-        if
-       (SaveScript.TimeTrialMinB <= 9)
+        if(SaveScript.TimeTrialMinB <= 9)
         {
-            TimeTrialMinutesB.text = "0" + SaveScript.TimeTrialMinB.ToString() + ":"
-           ;
+            TimeTrialMinutesB.text = "0" + SaveScript.TimeTrialMinB.ToString() + ":";
         }
-        if
-       (SaveScript.TimeTrialMinB >= 10)
+        if(SaveScript.TimeTrialMinB >= 10)
         {
-            TimeTrialMinutesB.text = SaveScript.TimeTrialMinB.ToString() + ":"
-           ;
+            TimeTrialMinutesB.text = SaveScript.TimeTrialMinB.ToString() + ":";
         }
-        if
-       (SaveScript.TimeTrialSecondsB <= 9)
+        if(SaveScript.TimeTrialSecondsB <= 9)
         {
             TimeTrialSecondsB.text = "0" + SaveScript.TimeTrialSecondsB.ToString();
         }
-        if
-       (SaveScript.TimeTrialSecondsB >= 10)
+        if(SaveScript.TimeTrialSecondsB >= 10)
         {
             TimeTrialSecondsB.text = SaveScript.TimeTrialSecondsB.ToString();
         }
-        if
-       (SaveScript.RaceOver == true
-       )
+        if(SaveScript.RaceOver == true)
         {
-            if (Winner == false
-           )
+            if (Winner == false)
             {
-                Winner = true
-               ;
+                Winner = true;
                 StartCoroutine(WinDisplay());
             }
         }
 
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            QuitPanel.SetActive(true);
+        }
 
     }
 
@@ -129,36 +116,37 @@ public class UITimeTrial : MonoBehaviour
     {
         yield return new WaitForSeconds(0.15f);
         TimeTrialResults.SetActive(true);
-        if
-       (SaveScript.Gold == true
-       )
+        if(SaveScript.Gold == true)
         {
-            WinMessage.text = "GOLD"
-           ;
+            WinMessage.text = "GOLD";
             GoldStar.SetActive(true);
         }
-        if
-       (SaveScript.Silver == true
-       )
+        if(SaveScript.Silver == true)
         {
-            WinMessage.text = "SILVER"
-           ;
+            WinMessage.text = "SILVER";
             SilverStar.SetActive(true);
 
         }
-        if
-       (SaveScript.Bronze == true
-       )
+        if(SaveScript.Bronze == true)
         {
             WinMessage.text = "BRONZE"
            ;
             BronzeStar.SetActive(true);
         }
-        if
-       (SaveScript.Fail == true
-       )
+        if(SaveScript.Fail == true)
         {
             WinMessage.text = "TRY AGAIN";
         }
+    }
+
+
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void QuitClose()
+    {
+        QuitPanel.SetActive(false);
     }
 }
