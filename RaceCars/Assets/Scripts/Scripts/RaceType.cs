@@ -13,58 +13,55 @@ public class RaceType : MonoBehaviour
     public float BronzeSeconds;
 
 
+
     void Start()
     {
-        if(TimeTrial == true)
+        void Start()
         {
-            SaveScript.TimeTrialMinG = GoldMinutes;
-            SaveScript.TimeTrialSecondsG = GoldSeconds;
-            SaveScript.TimeTrialMinS = SilverMinutes;
-            SaveScript.TimeTrialSecondsS = SilverSeconds;
-            SaveScript.TimeTrialMinB = BronzeMinutes;
-            SaveScript.TimeTrialSecondsB = BronzeSeconds;
+            if (TimeTrial == true)
+            {
+                SaveScript.TimeTrialMinG = GoldMinutes;
+                SaveScript.TimeTrialSecondsG = GoldSeconds;
+                SaveScript.TimeTrialMinS = SilverMinutes;
+                SaveScript.TimeTrialSecondsS = SilverSeconds;
+                SaveScript.TimeTrialMinB = BronzeMinutes;
+                SaveScript.TimeTrialSecondsB = BronzeSeconds;
+            }
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (SaveScript.RaceOver == true)
+        if(SaveScript.RaceOver == true)
         {
             if (TimeTrial == true)
             {
 
-                if((SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) > 59)
+                if ((SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) > 59)
                 {
                     SaveScript.PenaltySeconds = (SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) - 59;
                     SaveScript.RaceTimeMinutes++;
                     SaveScript.RaceTimeSeconds = 0 + SaveScript.PenaltySeconds;
                 }
-
-                if(SaveScript.RaceTimeMinutes< GoldMinutes)
+                if (SaveScript.RaceTimeMinutes < GoldMinutes)
                 {
-                    Debug.Log("gold");
+                    Debug.Log("Gold");
                     SaveScript.Gold = true;
                 }
-
-                if (SaveScript.RaceTimeMinutes < GoldMinutes && (SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds)<GoldSeconds)
+                if (SaveScript.RaceTimeMinutes == GoldMinutes && (SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) <GoldSeconds)
                 {
-                    Debug.Log("gold");
+                    Debug.Log("Gold");
                     SaveScript.Gold = true;
                 }
-
-
                 if (SaveScript.RaceTimeMinutes < SilverMinutes)
                 {
-                    if(SaveScript.Gold == false)
+                    if (SaveScript.Gold == false)
                     {
                         Debug.Log("Silver");
                         SaveScript.Silver = true;
                     }
-                    
                 }
-
-                if (SaveScript.RaceTimeMinutes < SilverMinutes && (SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) < SilverSeconds)
+                if (SaveScript.RaceTimeMinutes == SilverMinutes && (SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) <SilverSeconds)
                 {
                     if (SaveScript.Gold == false)
                     {
@@ -77,29 +74,27 @@ public class RaceType : MonoBehaviour
 
                 if (SaveScript.RaceTimeMinutes < BronzeMinutes)
                 {
-                    if (SaveScript.Gold == false && SaveScript.Silver==false)
+                    if (SaveScript.Gold == false && SaveScript.Silver == false)
                     {
-                        Debug.Log("bRonze");
+                        Debug.Log("Bronze");
                         SaveScript.Bronze = true;
                     }
-
                 }
-
-                if (SaveScript.RaceTimeMinutes < BronzeMinutes && (SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) < BronzeSeconds)
+                if (SaveScript.RaceTimeMinutes == BronzeMinutes && (SaveScript.RaceTimeSeconds + SaveScript.PenaltySeconds) <
+               BronzeSeconds)
                 {
                     if (SaveScript.Gold == false && SaveScript.Silver == false)
                     {
-                        Debug.Log("bRonze");
+                        Debug.Log("Bronze");
                         SaveScript.Bronze = true;
                     }
-
                 }
-
-                else if (SaveScript.Gold == false && SaveScript.Silver == false && SaveScript.Bronze==false)
+                else if (SaveScript.Gold == false && SaveScript.Silver == false && SaveScript.Bronze == false)
                 {
-                    Debug.Log("fail");
+                    Debug.Log("Fail");
                     SaveScript.Fail = true;
                 }
+
             }
         }
     }

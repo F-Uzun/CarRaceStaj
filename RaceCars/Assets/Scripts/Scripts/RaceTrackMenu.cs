@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RaceTrackMenu : MonoBehaviour
 {
@@ -11,8 +12,10 @@ public class RaceTrackMenu : MonoBehaviour
 
     public void OptionsOn()
     {
-        TrackOptions.SetActive(true);
+        Debug.Log("HELLO");
         TrackSelect.SetActive(false);
+        TrackOptions.SetActive(true);
+        
     }
 
     public void OptionsOff()

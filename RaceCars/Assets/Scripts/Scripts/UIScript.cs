@@ -36,6 +36,7 @@ public class UIScript : MonoBehaviour
     public GameObject F1Opponent5;
     public GameObject F1Opponent6;
     public GameObject F1Opponent7;
+    public GameObject QuitMenu;
 
 
 
@@ -58,6 +59,7 @@ public class UIScript : MonoBehaviour
         if(RaceTrack == true)
         {
             SetCarVisibility();
+            QuitMenu.SetActive(false);
         }
         
     }
@@ -329,7 +331,14 @@ public class UIScript : MonoBehaviour
         PlayersPosition.text = SaveScript.PlayerPosition.ToString();
 
 
-
+        //QuitMenu
+        if (RaceTrack == true)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                QuitMenu.SetActive(true);
+            }
+        }
 
     }
 
@@ -346,5 +355,15 @@ public class UIScript : MonoBehaviour
         yield return new WaitForSeconds(2);
         SaveScript.NewRecord = false;
         NewLapRecord.SetActive(false);
+    }
+
+    public void QuitRace()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void CloseQuit()
+    {
+        QuitMenu.SetActive(false);
     }
 }
