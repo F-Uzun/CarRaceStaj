@@ -1,0 +1,19 @@
+3.hafta
+AI arabaların çarptığında geri geri gelmesi ayarlandı.
+AI ların tur sayımları ayarlandı.
+Yarış bitiminde sonucları scripte eklendi.
+Yarış için leaderboard yapıldı.
+Arabaların yarış sırasında kaçıncı pozisyonda olduklarını UI ekranında görebiliyoruz.
+Leaderboard UI ekranı ayarlandı.
+Yarış bitiminde arabaların durması ayarlandı.
+Yarış modundan geriye çıkma ayarlandı.
+Main menu yapıldı.
+Pist seçme menüsü ayarlandı.
+Sahneler arası loading ekranı ayarlandı.
+Pist seçme menüsünden kullanıcı ister Time Trial mode veya Yarış modu seçerek oynayabilir.
+Yarış modunda kullanıcı tur sayısını ve AI sayılarını arttırıp kendi seçtiği ayarlara göre oynayabilir.
+Time trialda tur sürelerine göre gold,silver,bronze yıldızı alıp belirli bir puan alıyor artık.
+Oyundan ve yarıştan cıkma opsiyonu eklendi.
+Bug fixes.
+
+
