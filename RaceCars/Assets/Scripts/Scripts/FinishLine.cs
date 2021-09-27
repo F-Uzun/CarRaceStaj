@@ -5,12 +5,13 @@ using UnityEngine;
 public class FinishLine : MonoBehaviour
 {
     public GameObject Leaderboard;
-    public string PlayerName;
+    private string PlayerName;
     public static int PlayerFinishPosition;
     public static string PName;
 
     private void Start()
     {
+        PlayerName = UniversalSave.PlayerName;
         PName = PlayerName;
     }
 

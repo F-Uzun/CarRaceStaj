@@ -6,22 +6,28 @@ public class UIMainMenu : MonoBehaviour
 {
 
     public Text CreditsText;
+    public GameObject StatsPanel;
+    public GameObject TrackSelect;
 
 
     void Start()
     {
-        
+        Time.timeScale = 1;
+        StartCoroutine(WaitForCredits());
     }
 
-    void Update()
-    {
-        StartCoroutine(WaitForCredits());
-      
-    }
+    
 
     IEnumerator WaitForCredits()
     {
         yield return new WaitForSeconds(0.2f);
         CreditsText.text = UniversalSave.CreditAmount.ToString();
+    }
+
+    public void SwitchOnStats()
+    {
+        TrackSelect.SetActive(false);
+        StatsPanel.SetActive(true);
+        
     }
 }

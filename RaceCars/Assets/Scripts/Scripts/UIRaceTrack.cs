@@ -32,6 +32,7 @@ public class UIRaceTrack : MonoBehaviour
             WinMessage.text = "1ST PLACE";
             Credits.text = FirstPlaceCredits.ToString();
             UniversalSave.CreditAmount = UniversalSave.CreditAmount += FirstPlaceCredits;
+            UniversalSave.RacesWon++;
         }
 
         if (FinishLine.PlayerFinishPosition == 2)
@@ -39,6 +40,7 @@ public class UIRaceTrack : MonoBehaviour
             WinMessage.text = "2ND PLACE";
             Credits.text = FirstPlaceCredits.ToString();
             UniversalSave.CreditAmount = UniversalSave.CreditAmount += SecondPlaceCredits;
+            UniversalSave.RacesWon++;
         }
 
         if (FinishLine.PlayerFinishPosition == 3)
@@ -46,36 +48,42 @@ public class UIRaceTrack : MonoBehaviour
             WinMessage.text = "3RD PLACE";
             Credits.text = FirstPlaceCredits.ToString();
             UniversalSave.CreditAmount = UniversalSave.CreditAmount += ThirdPlaceCredits;
+            UniversalSave.RacesWon++;
         }
 
         if (FinishLine.PlayerFinishPosition == 4)
         {
             WinMessage.text = "4TH PLACE";
             Credits.text = "0";
+            UniversalSave.RacesLost++;
         }
 
         if (FinishLine.PlayerFinishPosition == 5)
         {
             WinMessage.text = "5TH PLACE";
             Credits.text = "0";
+            UniversalSave.RacesLost++;
         }
 
         if (FinishLine.PlayerFinishPosition == 6)
         {
             WinMessage.text = "6TH PLACE";
             Credits.text = "0";
+            UniversalSave.RacesLost++;
         }
 
         if (FinishLine.PlayerFinishPosition == 7)
         {
             WinMessage.text = "7TH PLACE";
             Credits.text = "0";
+            UniversalSave.RacesLost++;
         }
 
         if (FinishLine.PlayerFinishPosition == 8)
         {
             WinMessage.text = "8TH PLACE";
             Credits.text = "0";
+            UniversalSave.RacesLost++;
         }
 
         UniversalSave.Saving = true;

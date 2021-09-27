@@ -366,4 +366,9 @@ public class UIScript : MonoBehaviour
     {
         QuitMenu.SetActive(false);
     }
+
+    public void RaceReturnToMenu()
+    {
+        SceneManager.LoadScene(1);
+    }
 }
