@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 public class UIMainMenu : MonoBehaviour
 {
-
     public Text CreditsText;
     public GameObject StatsPanel;
     public GameObject TrackSelect;
@@ -16,7 +15,7 @@ public class UIMainMenu : MonoBehaviour
         StartCoroutine(WaitForCredits());
     }
 
-    
+
 
     IEnumerator WaitForCredits()
     {

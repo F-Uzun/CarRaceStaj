@@ -1045,7 +1045,7 @@ GameObject:
   - component: {fileID: 65803400}
   - component: {fileID: 65803399}
   m_Layer: 0
-  m_Name: Waypoint 001
+  m_Name: Waypoint 027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1063,7 +1063,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 1
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &65803399
 MeshRenderer:
@@ -1072,7 +1072,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65803397}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1282,7 +1282,7 @@ GameObject:
   - component: {fileID: 82839002}
   - component: {fileID: 82839001}
   m_Layer: 0
-  m_Name: Waypoint 015
+  m_Name: Waypoint 013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1300,7 +1300,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &82839001
 MeshRenderer:
@@ -1309,7 +1309,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82838999}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1532,7 +1532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 56
+  WPNumber: 26
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -1959,7 +1959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 36
+  WPNumber: 46
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -1994,7 +1994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 114.89643
+      value: 153.6
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2002,7 +2002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -149.73456
+      value: -135.2
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2010,7 +2010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6427876
+      value: -0.7660445
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2018,7 +2018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7660445
+      value: 0.64278764
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_RootOrder
@@ -2030,7 +2030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 80
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -2215,7 +2215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 30
+  WPNumber: 52
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -2467,7 +2467,7 @@ GameObject:
   - component: {fileID: 156016217}
   - component: {fileID: 156016216}
   m_Layer: 0
-  m_Name: Waypoint 018
+  m_Name: Waypoint 010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2481,11 +2481,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156016214}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -405.76614, y: 11.310389, z: 29.602654}
+  m_LocalPosition: {x: -381.8, y: 11.310389, z: 35.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 18
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &156016216
 MeshRenderer:
@@ -2494,7 +2494,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156016214}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2661,7 +2661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 19
+  WPNumber: 63
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -2898,7 +2898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 104.698975
+      value: 206.26012
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2906,7 +2906,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -145.52495
+      value: -126.62286
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2914,7 +2914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6427876
+      value: -0.7660445
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2922,7 +2922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7660445
+      value: 0.64278764
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_RootOrder
@@ -2934,7 +2934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 80
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -3036,7 +3036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 50
+  WPNumber: 32
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -3066,7 +3066,7 @@ GameObject:
   - component: {fileID: 207550023}
   - component: {fileID: 207550022}
   m_Layer: 0
-  m_Name: Waypoint 027
+  m_Name: Waypoint 001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3080,11 +3080,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207550020}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -376.76614, y: 11.310389, z: 0.10266113}
+  m_LocalPosition: {x: -349.4, y: 11.310389, z: -11.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 27
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &207550022
 MeshRenderer:
@@ -3093,7 +3093,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207550020}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3179,7 +3179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 52
+  WPNumber: 30
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -3342,8 +3342,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232026374}
-  m_LocalRotation: {x: 0.1339711, y: 0.63288176, z: -0.11241525, w: 0.7542382}
-  m_LocalPosition: {x: 154.22276, y: 1.59, z: -136.53899}
+  m_LocalRotation: {x: 0.11241525, y: -0.7542382, z: 0.13397111, w: 0.63288176}
+  m_LocalPosition: {x: 182.31499, y: 1.59, z: -136.95679}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 761670959}
@@ -3394,7 +3394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 43
+  WPNumber: 39
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -3689,7 +3689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 18
+  WPNumber: 64
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -3860,7 +3860,7 @@ GameObject:
   - component: {fileID: 266767011}
   - component: {fileID: 266767010}
   m_Layer: 0
-  m_Name: Waypoint 021
+  m_Name: Waypoint 007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3874,11 +3874,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266767008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -425.76614, y: 11.310389, z: 61.502655}
+  m_LocalPosition: {x: -426.5, y: 11.310389, z: 65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 21
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &266767010
 MeshRenderer:
@@ -3887,7 +3887,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266767008}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4051,7 +4051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 13
+  WPNumber: 69
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -4194,7 +4194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 4
+  WPNumber: 78
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -4304,7 +4304,7 @@ GameObject:
   - component: {fileID: 298473303}
   - component: {fileID: 298473302}
   m_Layer: 0
-  m_Name: Waypoint 016
+  m_Name: Waypoint 012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4322,7 +4322,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 16
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &298473302
 MeshRenderer:
@@ -4331,7 +4331,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298473300}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4416,7 +4416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 5
+  WPNumber: 77
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -4524,7 +4524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 35
+  WPNumber: 47
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -4888,7 +4888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 11
+  WPNumber: 71
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -5235,7 +5235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 64
+  WPNumber: 18
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -5378,7 +5378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 71
+  WPNumber: 11
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -5574,31 +5574,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.53
+      value: -360.56
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0100028515
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.16
+      value: -18.620182
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.619907
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.34016967
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.3401696
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.61990696
+      value: 0.7071067
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_RootOrder
@@ -6470,7 +6470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 68
+  WPNumber: 14
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -6762,7 +6762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 62
+  WPNumber: 20
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -7333,7 +7333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 12
+  WPNumber: 70
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -7395,7 +7395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 15
+  WPNumber: 67
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -7459,7 +7459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 33
+  WPNumber: 49
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -7603,7 +7603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 57
+  WPNumber: 25
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -7721,7 +7721,7 @@ GameObject:
   - component: {fileID: 562831132}
   - component: {fileID: 562831131}
   m_Layer: 0
-  m_Name: Waypoint 025
+  m_Name: Waypoint 003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7735,11 +7735,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 562831129}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -559.56616, y: 11.310389, z: 171.70265}
+  m_LocalPosition: {x: -569.5, y: 11.310389, z: 134.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 25
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &562831131
 MeshRenderer:
@@ -7748,7 +7748,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 562831129}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -8146,7 +8146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 8
+  WPNumber: 74
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -8319,68 +8319,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621631052}
   m_CullTransparentMesh: 0
---- !u!1 &632894708
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 632894709}
-  - component: {fileID: 632894711}
-  - component: {fileID: 632894710}
-  m_Layer: 0
-  m_Name: ProgressWayPoint (81)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &632894709
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632894708}
-  m_LocalRotation: {x: -0, y: 0.12359464, z: -0, w: -0.9923328}
-  m_LocalPosition: {x: 130.17859, y: 3.169983, z: -144.90633}
-  m_LocalScale: {x: 0.4192398, y: 7.2648, z: 37.194725}
-  m_Children: []
-  m_Father: {fileID: 1051089036}
-  m_RootOrder: 81
-  m_LocalEulerAnglesHint: {x: 0, y: -374.199, z: 0}
---- !u!114 &632894710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632894708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WPNumber: 82
-  CarTracking: 0
-  PenaltyOption: 0
-  PenaltyWayPoint: 0
-  Position: 0
---- !u!65 &632894711
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632894708}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &636183339
 GameObject:
   m_ObjectHideFlags: 0
@@ -8472,7 +8410,7 @@ GameObject:
   - component: {fileID: 637403418}
   - component: {fileID: 637403417}
   m_Layer: 0
-  m_Name: Waypoint 003
+  m_Name: Waypoint 025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8490,7 +8428,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 3
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &637403417
 MeshRenderer:
@@ -8499,7 +8437,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637403415}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -8573,35 +8511,35 @@ MonoBehaviour:
   waypointList:
     circuit: {fileID: 638650635}
     items:
-    - {fileID: 1361785545}
-    - {fileID: 65803398}
-    - {fileID: 1274196674}
-    - {fileID: 637403416}
-    - {fileID: 1733297721}
-    - {fileID: 1656465752}
-    - {fileID: 1951440962}
-    - {fileID: 852614214}
-    - {fileID: 2097973450}
-    - {fileID: 674751006}
-    - {fileID: 1163243273}
-    - {fileID: 1787596619}
-    - {fileID: 1039981255}
-    - {fileID: 1646001030}
-    - {fileID: 1974335527}
-    - {fileID: 82839000}
-    - {fileID: 298473301}
-    - {fileID: 1937660840}
-    - {fileID: 156016215}
-    - {fileID: 846523965}
-    - {fileID: 745614240}
-    - {fileID: 266767009}
-    - {fileID: 1666878856}
-    - {fileID: 984158936}
-    - {fileID: 2020778691}
-    - {fileID: 562831130}
-    - {fileID: 1715613701}
-    - {fileID: 207550021}
     - {fileID: 1879986933}
+    - {fileID: 207550021}
+    - {fileID: 1715613701}
+    - {fileID: 562831130}
+    - {fileID: 2020778691}
+    - {fileID: 984158936}
+    - {fileID: 1666878856}
+    - {fileID: 266767009}
+    - {fileID: 745614240}
+    - {fileID: 846523965}
+    - {fileID: 156016215}
+    - {fileID: 1937660840}
+    - {fileID: 298473301}
+    - {fileID: 82839000}
+    - {fileID: 1974335527}
+    - {fileID: 1646001030}
+    - {fileID: 1039981255}
+    - {fileID: 1787596619}
+    - {fileID: 1163243273}
+    - {fileID: 674751006}
+    - {fileID: 2097973450}
+    - {fileID: 852614214}
+    - {fileID: 1951440962}
+    - {fileID: 1656465752}
+    - {fileID: 1733297721}
+    - {fileID: 637403416}
+    - {fileID: 1274196674}
+    - {fileID: 65803398}
+    - {fileID: 1361785545}
   smoothRoute: 1
   editorVisualisationSubsteps: 200
 --- !u!4 &638650636
@@ -8615,35 +8553,35 @@ Transform:
   m_LocalPosition: {x: 192.3656, y: -11.284479, z: -146.24203}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1361785545}
-  - {fileID: 65803398}
-  - {fileID: 1274196674}
-  - {fileID: 637403416}
-  - {fileID: 1733297721}
-  - {fileID: 1656465752}
-  - {fileID: 1951440962}
-  - {fileID: 852614214}
-  - {fileID: 2097973450}
-  - {fileID: 674751006}
-  - {fileID: 1163243273}
-  - {fileID: 1787596619}
-  - {fileID: 1039981255}
-  - {fileID: 1646001030}
-  - {fileID: 1974335527}
-  - {fileID: 82839000}
-  - {fileID: 298473301}
-  - {fileID: 1937660840}
-  - {fileID: 156016215}
-  - {fileID: 846523965}
-  - {fileID: 745614240}
-  - {fileID: 266767009}
-  - {fileID: 1666878856}
-  - {fileID: 984158936}
-  - {fileID: 2020778691}
-  - {fileID: 562831130}
-  - {fileID: 1715613701}
-  - {fileID: 207550021}
   - {fileID: 1879986933}
+  - {fileID: 207550021}
+  - {fileID: 1715613701}
+  - {fileID: 562831130}
+  - {fileID: 2020778691}
+  - {fileID: 984158936}
+  - {fileID: 1666878856}
+  - {fileID: 266767009}
+  - {fileID: 745614240}
+  - {fileID: 846523965}
+  - {fileID: 156016215}
+  - {fileID: 1937660840}
+  - {fileID: 298473301}
+  - {fileID: 82839000}
+  - {fileID: 1974335527}
+  - {fileID: 1646001030}
+  - {fileID: 1039981255}
+  - {fileID: 1787596619}
+  - {fileID: 1163243273}
+  - {fileID: 674751006}
+  - {fileID: 2097973450}
+  - {fileID: 852614214}
+  - {fileID: 1951440962}
+  - {fileID: 1656465752}
+  - {fileID: 1733297721}
+  - {fileID: 637403416}
+  - {fileID: 1274196674}
+  - {fileID: 65803398}
+  - {fileID: 1361785545}
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8841,7 +8779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 66
+  WPNumber: 16
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -9053,7 +8991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 58
+  WPNumber: 24
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -9318,7 +9256,7 @@ GameObject:
   - component: {fileID: 674751008}
   - component: {fileID: 674751007}
   m_Layer: 0
-  m_Name: Waypoint 009
+  m_Name: Waypoint 019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9336,7 +9274,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 9
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &674751007
 MeshRenderer:
@@ -9345,7 +9283,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674751005}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -9493,7 +9431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 27
+  WPNumber: 55
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -9966,7 +9904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 38
+  WPNumber: 44
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -10075,7 +10013,7 @@ GameObject:
   - component: {fileID: 745614242}
   - component: {fileID: 745614241}
   m_Layer: 0
-  m_Name: Waypoint 020
+  m_Name: Waypoint 008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10093,7 +10031,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 20
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &745614241
 MeshRenderer:
@@ -10102,7 +10040,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745614239}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -10263,7 +10201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 20
+  WPNumber: 62
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -10325,7 +10263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 78
+  WPNumber: 4
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -10481,7 +10419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 22
+  WPNumber: 60
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -10561,68 +10499,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
   m_PrefabInstance: {fileID: 770147363}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &771072741
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 771072742}
-  - component: {fileID: 771072744}
-  - component: {fileID: 771072743}
-  m_Layer: 0
-  m_Name: ProgressWayPoint (83)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &771072742
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771072741}
-  m_LocalRotation: {x: -0, y: 0.12359464, z: -0, w: -0.9923328}
-  m_LocalPosition: {x: 180.10516, y: 3.169983, z: -132.27368}
-  m_LocalScale: {x: 0.4192398, y: 7.2648, z: 37.194725}
-  m_Children: []
-  m_Father: {fileID: 1051089036}
-  m_RootOrder: 83
-  m_LocalEulerAnglesHint: {x: 0, y: -374.199, z: 0}
---- !u!114 &771072743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771072741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WPNumber: 84
-  CarTracking: 0
-  PenaltyOption: 0
-  PenaltyWayPoint: 0
-  Position: 0
---- !u!65 &771072744
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771072741}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &773719877
 GameObject:
   m_ObjectHideFlags: 0
@@ -10667,7 +10543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 76
+  WPNumber: 6
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -11044,7 +10920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 37
+  WPNumber: 45
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -11152,31 +11028,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -360.56
+      value: -11.53
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01
+      value: 0.0100028515
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.620182
+      value: -0.16
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.619907
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.34016967
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.3401696
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 0.61990696
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a4227cc90a9b4749bf3e70615478ab0, type: 3}
       propertyPath: m_RootOrder
@@ -11313,7 +11189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 3
+  WPNumber: 79
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -11579,7 +11455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 74
+  WPNumber: 8
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -11641,7 +11517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 54
+  WPNumber: 28
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -12034,7 +11910,7 @@ GameObject:
   - component: {fileID: 846523967}
   - component: {fileID: 846523966}
   m_Layer: 0
-  m_Name: Waypoint 019
+  m_Name: Waypoint 009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12048,11 +11924,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846523964}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -434.06613, y: 11.310389, z: 32.502655}
+  m_LocalPosition: {x: -424.7, y: 11.310389, z: 33.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 19
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &846523966
 MeshRenderer:
@@ -12061,7 +11937,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846523964}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -12265,7 +12141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 51
+  WPNumber: 31
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -12357,7 +12233,7 @@ GameObject:
   - component: {fileID: 852614216}
   - component: {fileID: 852614215}
   m_Layer: 0
-  m_Name: Waypoint 007
+  m_Name: Waypoint 021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12375,7 +12251,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 7
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &852614215
 MeshRenderer:
@@ -12384,7 +12260,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852614213}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -12545,7 +12421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 77
+  WPNumber: 5
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -12688,7 +12564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 17
+  WPNumber: 65
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -12815,7 +12691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 44
+  WPNumber: 38
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -13367,14 +13243,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914800623}
-  m_LocalRotation: {x: -0, y: -0.115081966, z: -0, w: 0.99335605}
-  m_LocalPosition: {x: 199.11, y: 0.01, z: -140.14}
+  m_LocalRotation: {x: -0, y: 0.99846685, z: -0, w: 0.055352997}
+  m_LocalPosition: {x: 105.4, y: 0.01, z: -137.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1304632632654282552}
   m_Father: {fileID: 0}
   m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: -13.217, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 173.654, z: 0}
 --- !u!1 &914996533
 GameObject:
   m_ObjectHideFlags: 0
@@ -13748,7 +13624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 23
+  WPNumber: 59
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -13809,7 +13685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 9
+  WPNumber: 73
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -13920,7 +13796,7 @@ GameObject:
   - component: {fileID: 984158938}
   - component: {fileID: 984158937}
   m_Layer: 0
-  m_Name: Waypoint 023
+  m_Name: Waypoint 005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13938,7 +13814,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 23
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &984158937
 MeshRenderer:
@@ -13947,7 +13823,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984158935}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -14384,7 +14260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 39
+  WPNumber: 43
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -14966,7 +14842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 6
+  WPNumber: 76
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -15090,7 +14966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 10
+  WPNumber: 72
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -15153,7 +15029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 70
+  WPNumber: 12
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -15343,7 +15219,7 @@ GameObject:
   - component: {fileID: 1039981257}
   - component: {fileID: 1039981256}
   m_Layer: 0
-  m_Name: Waypoint 012
+  m_Name: Waypoint 016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15361,7 +15237,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 12
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1039981256
 MeshRenderer:
@@ -15370,7 +15246,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039981254}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -15582,9 +15458,6 @@ Transform:
   - {fileID: 1432944936}
   - {fileID: 1237379202}
   - {fileID: 1524088822}
-  - {fileID: 632894709}
-  - {fileID: 1741061994}
-  - {fileID: 771072742}
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15861,7 +15734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 59
+  WPNumber: 23
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -15905,12 +15778,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1061455408}
-  m_LocalRotation: {x: -0.619907, y: -0.34016967, z: -0.3401696, w: 0.61990696}
-  m_LocalPosition: {x: -17.945822, y: 3.610002, z: -10.51433}
-  m_LocalScale: {x: 24.331028, y: -0.22376008, z: 7.8923774}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: -372.54, y: 4.08, z: -18.740183}
+  m_LocalScale: {x: 24.406294, y: -0.109578, z: 8.23508}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1061455410
 Rigidbody:
@@ -16142,7 +16015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 40
+  WPNumber: 42
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -16283,7 +16156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 31
+  WPNumber: 51
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -16948,7 +16821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 7
+  WPNumber: 75
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -16979,7 +16852,7 @@ GameObject:
   - component: {fileID: 1163243275}
   - component: {fileID: 1163243274}
   m_Layer: 0
-  m_Name: Waypoint 010
+  m_Name: Waypoint 018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16997,7 +16870,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 10
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1163243274
 MeshRenderer:
@@ -17006,7 +16879,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163243272}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -17092,7 +16965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 73
+  WPNumber: 9
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -17395,7 +17268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 29
+  WPNumber: 53
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -17457,7 +17330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 25
+  WPNumber: 57
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -17519,7 +17392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 80
+  WPNumber: 2
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -18179,7 +18052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 72
+  WPNumber: 10
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -18350,7 +18223,7 @@ GameObject:
   - component: {fileID: 1274196676}
   - component: {fileID: 1274196675}
   m_Layer: 0
-  m_Name: Waypoint 002
+  m_Name: Waypoint 026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18368,7 +18241,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 2
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1274196675
 MeshRenderer:
@@ -18377,7 +18250,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274196673}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -18463,7 +18336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 24
+  WPNumber: 58
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -18933,8 +18806,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297650280}
-  m_LocalRotation: {x: 0.1339711, y: 0.63288176, z: -0.11241525, w: 0.7542382}
-  m_LocalPosition: {x: 154.22276, y: 1.59, z: -136.53899}
+  m_LocalRotation: {x: 0.11241525, y: -0.7542382, z: 0.13397111, w: 0.63288176}
+  m_LocalPosition: {x: 182.31499, y: 1.59, z: -136.95679}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -19466,7 +19339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 65
+  WPNumber: 17
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -19797,7 +19670,7 @@ GameObject:
   - component: {fileID: 1361785547}
   - component: {fileID: 1361785546}
   m_Layer: 0
-  m_Name: Waypoint 000
+  m_Name: Waypoint 028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19815,7 +19688,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 0
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1361785546
 MeshRenderer:
@@ -19824,7 +19697,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361785544}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -19910,7 +19783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 45
+  WPNumber: 37
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -20156,7 +20029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 53
+  WPNumber: 29
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -20218,7 +20091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 28
+  WPNumber: 54
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -20550,7 +20423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 21
+  WPNumber: 61
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -20923,7 +20796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 79
+  WPNumber: 3
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -21344,7 +21217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 2
+  WPNumber: 80
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -21526,7 +21399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 75
+  WPNumber: 7
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -21951,7 +21824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 81
+  WPNumber: 1
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -22083,7 +21956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 142.41399
+      value: 169.07399
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22091,7 +21964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -138.78993
+      value: -133.10994
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -22099,7 +21972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6427876
+      value: -0.7660445
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.z
@@ -22107,7 +21980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7660445
+      value: 0.64278764
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_RootOrder
@@ -22119,7 +21992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 80
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -22211,7 +22084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 42
+  WPNumber: 40
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -22571,7 +22444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 1
+  WPNumber: 81
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -22801,7 +22674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 60
+  WPNumber: 22
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -23055,7 +22928,7 @@ GameObject:
   - component: {fileID: 1646001032}
   - component: {fileID: 1646001031}
   m_Layer: 0
-  m_Name: Waypoint 013
+  m_Name: Waypoint 015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23073,7 +22946,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1646001031
 MeshRenderer:
@@ -23082,7 +22955,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646001029}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -23215,7 +23088,7 @@ GameObject:
   - component: {fileID: 1656465754}
   - component: {fileID: 1656465753}
   m_Layer: 0
-  m_Name: Waypoint 005
+  m_Name: Waypoint 023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23233,7 +23106,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 5
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1656465753
 MeshRenderer:
@@ -23242,7 +23115,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1656465751}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -23446,7 +23319,7 @@ GameObject:
   - component: {fileID: 1666878858}
   - component: {fileID: 1666878857}
   m_Layer: 0
-  m_Name: Waypoint 022
+  m_Name: Waypoint 006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23460,11 +23333,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666878855}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -396.34616, y: 11.310389, z: 89.40265}
+  m_LocalPosition: {x: -387.2, y: 11.310389, z: 89.40265}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 22
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1666878857
 MeshRenderer:
@@ -23473,7 +23346,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666878855}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -23559,7 +23432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 61
+  WPNumber: 21
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -23620,7 +23493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 14
+  WPNumber: 68
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -23837,7 +23710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 16
+  WPNumber: 66
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -24166,7 +24039,7 @@ GameObject:
   - component: {fileID: 1715613703}
   - component: {fileID: 1715613702}
   m_Layer: 0
-  m_Name: Waypoint 026
+  m_Name: Waypoint 002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24180,11 +24053,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715613700}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -532.8661, y: 11.310389, z: 59.702652}
+  m_LocalPosition: {x: -504.7, y: 11.310389, z: 30.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 26
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1715613702
 MeshRenderer:
@@ -24193,7 +24066,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715613700}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -24279,7 +24152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 69
+  WPNumber: 13
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -24314,7 +24187,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 134.83879
+      value: 161.4988
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -24322,7 +24195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -146.21819
+      value: -140.5382
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -24330,7 +24203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6427876
+      value: -0.7660445
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.z
@@ -24338,7 +24211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7660445
+      value: 0.64278764
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_RootOrder
@@ -24350,7 +24223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 80
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -24602,7 +24475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 32
+  WPNumber: 50
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -24694,7 +24567,7 @@ GameObject:
   - component: {fileID: 1733297723}
   - component: {fileID: 1733297722}
   m_Layer: 0
-  m_Name: Waypoint 004
+  m_Name: Waypoint 024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24712,7 +24585,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 4
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1733297722
 MeshRenderer:
@@ -24721,7 +24594,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1733297720}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -24763,68 +24636,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1733297720}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1741061993
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1741061994}
-  - component: {fileID: 1741061996}
-  - component: {fileID: 1741061995}
-  m_Layer: 0
-  m_Name: ProgressWayPoint (82)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1741061994
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741061993}
-  m_LocalRotation: {x: -0, y: 0.12359464, z: -0, w: -0.9923328}
-  m_LocalPosition: {x: 155.62659, y: 3.169983, z: -138.46736}
-  m_LocalScale: {x: 0.4192398, y: 7.2648, z: 37.194725}
-  m_Children: []
-  m_Father: {fileID: 1051089036}
-  m_RootOrder: 82
-  m_LocalEulerAnglesHint: {x: 0, y: -374.199, z: 0}
---- !u!114 &1741061995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741061993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WPNumber: 83
-  CarTracking: 0
-  PenaltyOption: 0
-  PenaltyWayPoint: 0
-  Position: 0
---- !u!65 &1741061996
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741061993}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1750890667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25326,7 +25137,7 @@ GameObject:
   - component: {fileID: 1787596621}
   - component: {fileID: 1787596620}
   m_Layer: 0
-  m_Name: Waypoint 011
+  m_Name: Waypoint 017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25344,7 +25155,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 11
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1787596620
 MeshRenderer:
@@ -25353,7 +25164,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787596618}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -25439,7 +25250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 55
+  WPNumber: 27
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -26009,7 +25820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 26
+  WPNumber: 56
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -26071,7 +25882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 63
+  WPNumber: 19
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -26507,7 +26318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 49
+  WPNumber: 33
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -26606,7 +26417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 46
+  WPNumber: 36
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -26765,7 +26576,7 @@ GameObject:
   - component: {fileID: 1879986935}
   - component: {fileID: 1879986934}
   m_Layer: 0
-  m_Name: Waypoint 028
+  m_Name: Waypoint 000
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26783,7 +26594,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 28
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1879986934
 MeshRenderer:
@@ -26792,7 +26603,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879986932}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -27306,7 +27117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 47
+  WPNumber: 35
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -28001,7 +27812,7 @@ GameObject:
   - component: {fileID: 1937660842}
   - component: {fileID: 1937660841}
   m_Layer: 0
-  m_Name: Waypoint 017
+  m_Name: Waypoint 011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28019,7 +27830,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 17
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1937660841
 MeshRenderer:
@@ -28028,7 +27839,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937660839}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -28392,7 +28203,7 @@ GameObject:
   - component: {fileID: 1951440964}
   - component: {fileID: 1951440963}
   m_Layer: 0
-  m_Name: Waypoint 006
+  m_Name: Waypoint 022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28410,7 +28221,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 6
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1951440963
 MeshRenderer:
@@ -28419,7 +28230,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951440961}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -28787,7 +28598,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974335526}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -29151,7 +28962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 48
+  WPNumber: 34
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -29181,7 +28992,7 @@ GameObject:
   - component: {fileID: 2020778693}
   - component: {fileID: 2020778692}
   m_Layer: 0
-  m_Name: Waypoint 024
+  m_Name: Waypoint 004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29195,11 +29006,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020778690}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -513.8661, y: 11.310389, z: 211.80264}
+  m_LocalPosition: {x: -519.4, y: 11.310389, z: 216.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 24
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2020778692
 MeshRenderer:
@@ -29208,7 +29019,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020778690}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -29302,7 +29113,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024259438}
   m_LocalRotation: {x: -0, y: -0.098254114, z: -0, w: 0.99516135}
-  m_LocalPosition: {x: 189.17, y: 4.01, z: -131.69}
+  m_LocalPosition: {x: 115.97, y: 4.01, z: -146.28}
   m_LocalScale: {x: 0.30938, y: 8.3707, z: 30.7874}
   m_Children: []
   m_Father: {fileID: 0}
@@ -29414,7 +29225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 34
+  WPNumber: 48
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -30319,7 +30130,7 @@ GameObject:
   - component: {fileID: 2097973452}
   - component: {fileID: 2097973451}
   m_Layer: 0
-  m_Name: Waypoint 008
+  m_Name: Waypoint 020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30337,7 +30148,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 638650636}
-  m_RootOrder: 8
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2097973451
 MeshRenderer:
@@ -30346,7 +30157,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097973449}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -30493,12 +30304,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109920063}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -372.54, y: 4.08, z: -18.740183}
-  m_LocalScale: {x: 24.406294, y: -0.109578, z: 8.23508}
+  m_LocalRotation: {x: -0.619907, y: -0.34016967, z: -0.3401696, w: 0.61990696}
+  m_LocalPosition: {x: -17.945822, y: 3.610002, z: -10.51433}
+  m_LocalScale: {x: 24.331028, y: -0.22376008, z: 7.8923774}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2109920065
 BoxCollider:
@@ -30605,7 +30416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9efbc6950f33a6e47935d145284b111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WPNumber: 67
+  WPNumber: 15
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
@@ -31142,7 +30953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2399269270276099, guid: 1212a9d43b36aa74b999855337603bf5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 169.44
+      value: 142.3
       objectReference: {fileID: 0}
     - target: {fileID: 2399269270276099, guid: 1212a9d43b36aa74b999855337603bf5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31150,7 +30961,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2399269270276099, guid: 1212a9d43b36aa74b999855337603bf5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -140.48
+      value: -144.3
       objectReference: {fileID: 0}
     - target: {fileID: 2399269270276099, guid: 1212a9d43b36aa74b999855337603bf5, type: 3}
       propertyPath: m_LocalRotation.x
@@ -31158,7 +30969,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2399269270276099, guid: 1212a9d43b36aa74b999855337603bf5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6427876
+      value: -0.7660445
       objectReference: {fileID: 0}
     - target: {fileID: 2399269270276099, guid: 1212a9d43b36aa74b999855337603bf5, type: 3}
       propertyPath: m_LocalRotation.z
@@ -31166,7 +30977,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2399269270276099, guid: 1212a9d43b36aa74b999855337603bf5, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7660445
+      value: 0.64278764
       objectReference: {fileID: 0}
     - target: {fileID: 2399269270276099, guid: 1212a9d43b36aa74b999855337603bf5, type: 3}
       propertyPath: m_RootOrder
@@ -31178,7 +30989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2399269270276099, guid: 1212a9d43b36aa74b999855337603bf5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 80
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 2399269270276099, guid: 1212a9d43b36aa74b999855337603bf5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -31393,7 +31204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4197577657822446386, guid: 1e5610ea6dd1c834482363f5c0706745, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 158.43774
+      value: 178.1
       objectReference: {fileID: 0}
     - target: {fileID: 4197577657822446386, guid: 1e5610ea6dd1c834482363f5c0706745, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31401,7 +31212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4197577657822446386, guid: 1e5610ea6dd1c834482363f5c0706745, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -135.79578
+      value: -137.7
       objectReference: {fileID: 0}
     - target: {fileID: 4197577657822446386, guid: 1e5610ea6dd1c834482363f5c0706745, type: 3}
       propertyPath: m_LocalRotation.x
@@ -31409,7 +31220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4197577657822446386, guid: 1e5610ea6dd1c834482363f5c0706745, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6427876
+      value: -0.7660445
       objectReference: {fileID: 0}
     - target: {fileID: 4197577657822446386, guid: 1e5610ea6dd1c834482363f5c0706745, type: 3}
       propertyPath: m_LocalRotation.z
@@ -31417,7 +31228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4197577657822446386, guid: 1e5610ea6dd1c834482363f5c0706745, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7660445
+      value: 0.64278764
       objectReference: {fileID: 0}
     - target: {fileID: 4197577657822446386, guid: 1e5610ea6dd1c834482363f5c0706745, type: 3}
       propertyPath: m_RootOrder
@@ -31429,7 +31240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4197577657822446386, guid: 1e5610ea6dd1c834482363f5c0706745, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 80
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 4197577657822446386, guid: 1e5610ea6dd1c834482363f5c0706745, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -31662,7 +31473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 123.65652
+      value: 185.3
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31670,7 +31481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -142.1822
+      value: -130.1
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalRotation.x
@@ -31678,7 +31489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6427876
+      value: -0.7660445
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalRotation.z
@@ -31686,7 +31497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7660445
+      value: 0.64278764
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_RootOrder
@@ -31698,7 +31509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 80
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 8843654725688202360, guid: 1797ca0513c00b8439afda1df2251022, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -31763,7 +31574,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 153.34735
+      value: 194.9
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31771,7 +31582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -143.20848
+      value: -134.9
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -31779,7 +31590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6427876
+      value: -0.7660445
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.z
@@ -31787,7 +31598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7660445
+      value: 0.64278764
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_RootOrder
@@ -31799,7 +31610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 80
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 2073988371905045303, guid: 6af78a3511339ec49999e3bcf871111c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z

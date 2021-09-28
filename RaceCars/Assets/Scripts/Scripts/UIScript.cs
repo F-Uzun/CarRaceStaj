@@ -231,6 +231,7 @@ public class UIScript : MonoBehaviour
 
 
 
+
         //Display Best Lap Time
         if (SaveScript.BestLapTimeM <= 9)
         {
@@ -253,6 +254,7 @@ public class UIScript : MonoBehaviour
             NewLapRecord.SetActive(true);
             StartCoroutine(LapRecordOff());
         }
+
 
 
         //checkpoint1
