@@ -12,7 +12,6 @@ public class RaceTrackMenu : MonoBehaviour
 
     public void OptionsOn()
     {
-        Debug.Log("HELLO");
         TrackSelect.SetActive(false);
         TrackOptions.SetActive(true);
         
