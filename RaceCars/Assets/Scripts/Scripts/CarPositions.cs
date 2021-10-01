@@ -10,6 +10,7 @@ public class CarPositions : MonoBehaviour
     public GameObject Slot5;
     public GameObject Slot6;
     public GameObject Slot7;
+    public GameObject Slot8;
 
     public GameObject Stats;
     public int AICarNumber;
@@ -85,6 +86,10 @@ public class CarPositions : MonoBehaviour
         if (Pos == 7)
         {
             Stats.transform.position = Slot7.transform.position;
+        }
+        if (Pos == 8)
+        {
+            Stats.transform.position = Slot8.transform.position;
         }
     }
 }
